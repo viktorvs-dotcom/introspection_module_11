@@ -29,5 +29,5 @@ def introspection_info(obj):
     return info
 
 
-str_info = introspection_info('привет')
-pprint(str_info)
+numbers_info = introspection_info(45)
+pprint(numbers_info)
